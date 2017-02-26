@@ -298,6 +298,23 @@ section.cta {
             max-width: 450px;
             font-size: 50px;
         }
+		
+		.separator{
+			background: white;
+			display: inline-block;
+			height: 5px;
+			margin: -20px 0 0 10px;
+			width: 100px;
+		}
+		
+		.contact-info{
+			li{
+				color: white;
+				font-size: 20px;
+				padding: 5px 10px;
+			}
+		}
+		
         @media (min-width: 768px) {
             h2 {
                 font-size: 80px;
@@ -335,6 +352,15 @@ section.contact {
                 border-radius: 100%;
                 color: white;
             }
+			
+			&.social-telegram{
+				a {
+                    background-color: @brand-twitter;
+                    &:hover {
+                        background-color: darken(@brand-twitter, 5%);
+                    }
+                }
+			}
             &.social-twitter {
                 a {
                     background-color: @brand-twitter;

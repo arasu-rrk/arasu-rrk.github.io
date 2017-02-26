@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Start Bootstrap - Arasu RRK v3.3.7 (http://arasu-rrk.com)
+ * Copyright 2013-2017 Arasu RRK
+ * Licensed under MIT (https://github.com/arasu-rrk/arasu-rrk.github.io/blob/master/LICENSE)
  */
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
@@ -316,6 +316,18 @@ section.cta .cta-content h2 {
   max-width: 450px;
   font-size: 50px;
 }
+section.cta .cta-content .separator {
+  background: white;
+  display: inline-block;
+  height: 5px;
+  margin: -20px 0 0 10px;
+  width: 100px;
+}
+section.cta .cta-content .contact-info li {
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+}
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
     font-size: 80px;
@@ -350,6 +362,12 @@ section.contact ul.list-social li a {
   font-size: 40px;
   border-radius: 100%;
   color: white;
+}
+section.contact ul.list-social li.social-telegram a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-telegram a:hover {
+  background-color: #0d95e8;
 }
 section.contact ul.list-social li.social-twitter a {
   background-color: #1da1f2;
