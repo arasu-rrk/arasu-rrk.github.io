@@ -1,0 +1,30 @@
+- title: Pages
+  links:
+    - name: Home
+      link: /
+    # - name: Portfolio
+      # link: /portfolio/
+    - name: Blog
+      link: /blog/
+    - name: About
+      link: /about/
+    - name: Contact
+      link: /contact/
+- title: Social
+  links:
+    - name: Facebook
+      link: https://fb.me/arasu.rrk5
+      social_icon: Facebook
+      new_window: true
+    - name: Twitter
+      link: https://twitter.com/arasu_rrk
+      social_icon: Twitter
+      new_window: true
+    - name: Google+
+      link: https://plus.google.com/+ArasuRRK
+      social_icon: Google Plus
+      new_window: true
+    - name: LinkedIn
+      link: https://www.linkedin.com/in/arasu-rrk/
+      social_icon: LinkedIn
+      new_window: true
