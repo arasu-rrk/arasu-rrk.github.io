@@ -16,10 +16,10 @@ Azure SQL Server is configured by default to connect to Azure Services alone. If
 
 3. From the navigation menu, select **Firewalls and virtual networks**
 
- ![](/images/azure/sql-server/azure-sql-firewall.png)
+   ![](/images/azure/sql-server/azure-sql-firewall.png)
 
 4. Configure your IP address in the page
- ![](/images/azure/sql-server/azure-sql-firewall-settings.png)
+   ![](/images/azure/sql-server/azure-sql-firewall-settings.png)
 
 
    a. Click **Add Client IP** option to allow your current IP address in the firewall. 
