@@ -3,6 +3,7 @@ name: Arasu RRK
 title: Arasu RRK
 url: "https://arasu-rrk.com"
 baseurl:
+favicon: "favicon.ico"
 google_analytics_key: UA-92684325-1
 google_maps_javascript_api_key:
 disqus_shortname:

@@ -10,7 +10,7 @@ tags: [sendgrid, smtp, csharp]
 
 [SendGrid](https://sendgrid.com) (now owned by [Twilio](https://www.twilio.com)) is used by some of the biggest names in the industry such as Uber, Spotify, Yelp, Airbnb, and even Kinsta. It originally started out as a transactional email SMTP and API serviced designed for developers. However, they now also offer email marketing features as well.
 
-1. Go to [https://app.sendgrid.com/settings/api_keys](https://app.sendgrid.com/settings/api_keys)
+1. Go to <https://app.sendgrid.com/settings/api_keys>
    ![](/images/sendgrid/sendgrid-api-keys-link.png)
 
 2. Click the **Create API Key**.
@@ -37,7 +37,7 @@ tags: [sendgrid, smtp, csharp]
 
 Please find the sample C# application in the below link.
 
-[https://github.com/arasu-rrk/sendgrid-smtp-client](https://github.com/arasu-rrk/sendgrid-smtp-client)
+<https://github.com/arasu-rrk/sendgrid-smtp-client>
 
 <style>
   table, td {
