@@ -1,12 +1,16 @@
 ---
 title: How to configure firewall in Azure SQL Server?
-categories:
-  - azure-sql
-author_staff_member: arasu_rrk
+author: arasu_rrk
 show_comments: true
+permalink: "/blog/how-to-configure-firewall-in-azure-sql-server"
+categories: [ Azure, Azure SQL, Firewall ]
+image: images/blog-hero/firewall.png
+tags: [firewall, azure-sql-server, azure-sql-database, featured]
+redirect_from:
+  - /azure-sql/2019/12/14/how-to-configure-firewall-in-azure-sql-server
 ---
 
-Azure SQL Server is configured by default to connect to Azure Services alone. If you want to access the Azure SQL Server in your network you've to configure your IP address in Azure SQL Server Firewall.
+[Azure SQL Server](https://azure.microsoft.com/en-us/services/sql-database) is configured by default to connect to Azure Services alone. If you want to access the Azure SQL Server in your network you've to configure your IP address in Azure SQL Server Firewall.
 
 1. Go to [https://portal.azure.com](https://portal.azure.com)
 
@@ -31,6 +35,5 @@ Azure SQL Server is configured by default to connect to Azure Services alone. If
 
    e. Enable this option *Allow Azure services and resources to access this server* to allow your services that are hosted in Azure. 
       > NOTE: This option enables access to all services and resource (Not only your resources) that are hosted in Azure. 
-
 
 5. Once you have configured IP addresses, click **Save** to save your changes.

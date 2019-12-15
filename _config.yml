@@ -1,3 +1,5 @@
+# Site
+name: Arasu RRK
 title: Arasu RRK
 url: "https://arasu-rrk.com"
 baseurl:
@@ -8,11 +10,18 @@ disqus_shortname:
 # Default description in social shares for the jekyll-seo-tag gem
 description: Professional .NET web developer, currently working in Syncfusion Inc.
 
+include: ["_pages"]
+
 # Author details for the jekyll-seo-tag gem
-author:
-  name: Arasu RRK
-  email:
-  twitter: 
+authors:
+    arasu_rrk:
+      name:           Arasu RRK
+      site:           https://arasu-rrk.com
+      avatar:         assets/images/avatar1.jpg
+      bio:            "Hi, I'm Arasu RRK."
+      email:          hello@arasu-rrk.com
+      twitter:        https://twitter.com/arasu_rrk
+
 
 # Social details for the jekyll-seo-tag gem
 social:
@@ -26,7 +35,6 @@ collections:
   clients:
     output: false
 
-paginate: 10
 paginate_path: "/blog/:num/"
 permalink: pretty
 
@@ -39,6 +47,7 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-archives"
+  - "jekyll-redirect-from"
 
 defaults:
   - scope:
@@ -78,8 +87,12 @@ defaults:
     values:
       layout: "default"
 
-# -----------
-# CloudCannon
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
 
 social_icons:
   - Facebook

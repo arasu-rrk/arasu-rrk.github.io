@@ -1,0 +1,11 @@
+{% for link in site.data.navigation.links %}
+			{% assign class = "" %}
+			{% if link.highlight %}
+				{% assign class = class | append: " highlight" %}
+			{% endif %}
+
+			{% if link.link == page.url %}
+				{% assign class = class | append: " active" %}
+			{% endif %}
+			<li class="nav-item"><a href="{{ site.baseurl }}{{ link.link }}" class="nav-link {{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a></li>
+		{% endfor %}
