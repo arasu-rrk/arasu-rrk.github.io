@@ -49,6 +49,7 @@ gems:
   - "jekyll-paginate"
   - "jekyll-archives"
   - "jekyll-redirect-from"
+  - "jekyll-sitemap"
 
 defaults:
   - scope:
